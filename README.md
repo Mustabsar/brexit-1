@@ -1,7 +1,9 @@
 # brexit
 Geographical Data Aalysis (voting, demographics, etc.) with Python
 
-Raw data was downloaded from Electoral Commission website in CSV format; data file format as follows (header plus example data row):
+Raw data was downloaded from Electoral Commission website in CSV format (http://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/upcoming-elections-and-referendums/eu-referendum/electorate-and-count-information).
+
+Data file format as follows (header plus example data row):
 
 "id","Region\_Code","Region","Area\_Code","Area","Electorate","ExpectedBallots","VerifiedBallotPapers","Pct\_Turnout","Votes\_Cast","Valid\_Votes","Remain","Leave","Rejected\_Ballots","No\_official\_mark","Voting\_for\_both\_answers","Writing\_or\_mark","Unmarked\_or\_void","Pct\_Remain","Pct\_Leave","Pct_Rejected"
  "100","E00000000","xxxxxxx","E00000000","xxxxxxxxxxxx","123456","12345","12345","00.00","12345","12345","12345","12345","00","0","00","0","00","00.00","00.00","0.00"
